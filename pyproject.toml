@@ -5,7 +5,16 @@ description = "ai-powered-recruitment-agent"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "matplotlib>=3.10.3",
+    "nltk>=3.9.1",
+    "pdfminer3>=2018.12.3.0",
     "pdfplumber>=0.11.6",
+    "plotly>=6.1.2",
+    "pypdf2>=3.0.1",
+    "pyttsx3>=2.98",
     "spacy>=3.8.7",
+    "speechrecognition>=3.14.3",
     "streamlit>=1.45.1",
+    "streamlit-tags>=1.2.8",
+    "yt-dlp>=2025.6.9",
 ]
